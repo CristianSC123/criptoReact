@@ -2,7 +2,6 @@ import axios from "axios"
 import { useState } from "react"
 import { Navigate, useNavigate } from "react-router-dom"
 import "./Login.css"
-import "./img/btc.png"
 
 const Login = () => {
 
@@ -40,7 +39,7 @@ const Login = () => {
         <div className="login-container">
             <h1>Iniciar Sesion</h1>
             <div className="cripto-logo">
-                <img src="/dist/assets/btc-BBHmOUjs.png" alt="cripto" />
+                <img src="btc.png" alt="cripto" />
             </div>
             <div className="field-container">
                 <form onSubmit={submit} >
@@ -57,12 +56,12 @@ const Login = () => {
                         }} type="password" name="password" required />
                     </div>
                     <div className="submit">
-                        <input type="submit" value={cargando ? "cargando...": "Ingresar"} className="link" />
+                        <input type="submit" value={cargando ? "cargando..." : "Ingresar"} className="link" />
                     </div>
                 </form>
                 {
-                
-                error &&  <span className="error">Error: {error}</span>
+
+                    error && <span className="error">Error: {error}</span>
                 }
             </div>
         </div>
