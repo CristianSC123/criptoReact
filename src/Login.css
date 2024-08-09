@@ -1,0 +1,60 @@
+.login-container{
+    max-width: 500px;
+    margin: auto;
+    margin-top: 1rem;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 8px;
+    padding: 2rem;
+    transition: all .25s;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    max-height: 700px;
+}
+
+.field{
+    margin-bottom: 1rem;
+}
+
+.field label{
+    margin-right: 1rem;
+    line-height: 2;
+}
+
+.field input{
+    background: none;
+    border: 1px solid gray;
+    padding: .5rem;
+    border-radius: .75rem;
+    width: 100%;
+    color: white;
+}
+
+.cripto-logo img{
+    height: 200px;
+    width: 200px;
+    margin-left: 1em;
+    margin-bottom: .5em;
+}
+
+.submit input{
+    background: none;
+    color: white;
+    border: 1px solid gray;
+    padding: .5em 1em .5em 1em;
+    border-radius: 2em;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.submit input:hover{
+    border: 1.5px solid yellowgreen;
+    transform: scale(1.1);
+    transition: 1.5s;
+}
+
+.error{
+    background-color: tomato;
+    padding: .25em;
+    border-radius: .5rem;
+}

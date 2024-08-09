@@ -1,0 +1,34 @@
+.user-title{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+}
+
+.info-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.user-img img{
+    border-radius: 5em;
+    height: 200px;
+}
+
+.user-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .5em;
+    font-size: 1.5em;
+}
+
+.user-info p{
+    color: white;
+}
+
+.user-registered{
+    font-size: 1.25em;
+}

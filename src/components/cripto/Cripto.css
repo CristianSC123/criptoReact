@@ -1,0 +1,38 @@
+.main-link{
+    text-decoration: none;
+}
+
+.cripto{
+    border: 1px solid  rgb(0, 193, 241);
+    padding: 1em 1em;
+    margin: 0 2em;
+    border-radius: 1.5em;
+    border-left: 10px solid skyblue;
+    text-decoration: none;
+}
+
+.cripto h2{
+    color: rgb(0, 193, 241);
+}
+
+.cripto:hover{
+    transform: scale(1.1);
+    transition: 1.5s;
+}
+
+.info{
+    color: rgb(209, 209, 209);
+}
+
+.label{
+    color: rgb(0, 193, 241);
+}
+
+.positivo{
+    color: greenyellow;
+}
+
+.negativo{
+    color: red;
+}
+

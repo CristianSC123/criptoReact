@@ -1,0 +1,22 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    margin: .5em 1.5em;
+}
+
+.btn {
+    color: rgb(0, 0, 116);
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1em;
+    text-align: center;
+    width: 8em;
+    padding: .5em;
+    margin: 1em;
+}
