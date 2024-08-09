@@ -40,7 +40,7 @@ const Login = () => {
         <div className="login-container">
             <h1>Iniciar Sesion</h1>
             <div className="cripto-logo">
-                <img src="/src/img/btc.png" alt="cripto" />
+                <img src="/dist/assets/btc-BBHmOUjs.png" alt="cripto" />
             </div>
             <div className="field-container">
                 <form onSubmit={submit} >
